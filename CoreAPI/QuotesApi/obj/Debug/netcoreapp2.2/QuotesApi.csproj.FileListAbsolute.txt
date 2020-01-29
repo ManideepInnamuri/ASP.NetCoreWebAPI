@@ -1,0 +1,14 @@
+D:\Study\Learning\Core\WebAPI\CoreAPI\QuotesApi\bin\Debug\netcoreapp2.2\QuotesApi.deps.json
+D:\Study\Learning\Core\WebAPI\CoreAPI\QuotesApi\bin\Debug\netcoreapp2.2\QuotesApi.runtimeconfig.json
+D:\Study\Learning\Core\WebAPI\CoreAPI\QuotesApi\bin\Debug\netcoreapp2.2\QuotesApi.runtimeconfig.dev.json
+D:\Study\Learning\Core\WebAPI\CoreAPI\QuotesApi\bin\Debug\netcoreapp2.2\QuotesApi.dll
+D:\Study\Learning\Core\WebAPI\CoreAPI\QuotesApi\obj\Debug\netcoreapp2.2\QuotesApi.csprojAssemblyReference.cache
+D:\Study\Learning\Core\WebAPI\CoreAPI\QuotesApi\obj\Debug\netcoreapp2.2\QuotesApi.csproj.CoreCompileInputs.cache
+D:\Study\Learning\Core\WebAPI\CoreAPI\QuotesApi\obj\Debug\netcoreapp2.2\QuotesApi.RazorAssemblyInfo.cache
+D:\Study\Learning\Core\WebAPI\CoreAPI\QuotesApi\obj\Debug\netcoreapp2.2\QuotesApi.RazorAssemblyInfo.cs
+D:\Study\Learning\Core\WebAPI\CoreAPI\QuotesApi\obj\Debug\netcoreapp2.2\QuotesApi.AssemblyInfoInputs.cache
+D:\Study\Learning\Core\WebAPI\CoreAPI\QuotesApi\obj\Debug\netcoreapp2.2\QuotesApi.AssemblyInfo.cs
+D:\Study\Learning\Core\WebAPI\CoreAPI\QuotesApi\obj\Debug\netcoreapp2.2\QuotesApi.RazorTargetAssemblyInfo.cache
+D:\Study\Learning\Core\WebAPI\CoreAPI\QuotesApi\bin\Debug\netcoreapp2.2\QuotesApi.pdb
+D:\Study\Learning\Core\WebAPI\CoreAPI\QuotesApi\obj\Debug\netcoreapp2.2\QuotesApi.dll
+D:\Study\Learning\Core\WebAPI\CoreAPI\QuotesApi\obj\Debug\netcoreapp2.2\QuotesApi.pdb
