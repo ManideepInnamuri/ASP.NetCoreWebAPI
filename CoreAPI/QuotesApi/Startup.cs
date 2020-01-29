@@ -12,7 +12,7 @@ using Microsoft.Extensions.Options;
 
 namespace QuotesApi
 {
-    public class Startup
+    public class Startup 
     {
         public Startup(IConfiguration configuration)
         {
