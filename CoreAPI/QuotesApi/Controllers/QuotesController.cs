@@ -24,9 +24,22 @@ namespace QuotesApi.Controllers
             return quotes;
         }
 
-        public void Post(Quote quote)
+        [HttpPost]
+        public void Post([FromBody]Quote quote)
         {
             quotes.Add(quote);
+        }
+
+        [HttpPut("{id}")]
+        public void put(int id,[FromBody] Quote quote)
+        {
+            quotes[id] = quote;
+        }
+
+        [HttpDelete("{id}")]
+        public void Delete(int id)
+        {
+            quotes.RemoveAt(id);
         }
     }
 }
