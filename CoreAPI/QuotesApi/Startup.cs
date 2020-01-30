@@ -7,8 +7,10 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using QuotesApi.Data;
 
 namespace QuotesApi
 {
@@ -25,6 +27,8 @@ namespace QuotesApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddDbContext<QuotesDBContext>(option=>option.UseSqlServer(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=QuotesDb;"));
+            services.AddMvc().AddXmlSerializerFormatters();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -34,7 +38,8 @@ namespace QuotesApi
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            //For Ensuring the DB Created
+            //quotesDBContext.Database.EnsureCreated();
             app.UseMvc();
         }
     }
